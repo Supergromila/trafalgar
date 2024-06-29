@@ -2,7 +2,7 @@
   "name": "react-starter",
   "version": "1.0.0",
   "description": "React (TS) starter project",
-  "homepage": "https://Supergromila.github.io/trafalgar",
+  "homepage": ".",
   "main": "index.js",
   "engines": {
     "node": ">=15.0.0",
@@ -109,12 +109,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://kseniakap.github.io/trafalgar.git"
+    "url": "https://github.com/Supergromila/trafalgar.git"
   },
   "author": "criitch@yandex.ru",
   "license": "ISC",
   "bugs": {
-    "url": "https://kseniakap.github.io/trafalgar/issues"
+    "url": "https://github.com/Supergromila/trafalgar/issues"
   },
   "husky": {
     "hooks": {
