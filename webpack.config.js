@@ -14,6 +14,7 @@ const WatchMissingNodeModulesPlugin = require('react-dev-utils/WatchMissingNodeM
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const ReactRefreshTypeScript = require('react-refresh-typescript');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
+const path = require('path');
 
 // enable .env file
 require('dotenv').config({ path: paths.dotenv });
@@ -32,10 +33,7 @@ module.exports = (env, argv) => {
       app: paths.appIndex,
     },
     output: {
-      filename: 'js/[name].js',
-      path: paths.appBuild,
-      publicPath: 'auto',
-      clean: true,
+      path: path.resolve(__dirname, 'dist'),
     },
     resolve: {
       alias: {
