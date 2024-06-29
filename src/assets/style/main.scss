@@ -1,0 +1,68 @@
+@import './font.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #21272a;
+}
+
+.btn-text-l {
+  @include btn-L;
+}
+
+.btn-text-m {
+  @include btn-M;
+}
+
+.btn-text-s {
+  @include btn-S;
+}
+
+.heading-1 {
+  @include h1;
+}
+
+.heading-2 {
+  @include h2;
+}
+
+.heading-3 {
+  @include h3;
+}
+
+.heading-4 {
+  @include h4;
+}
+
+.heading-5 {
+  @include h5;
+}
+
+.heading-6 {
+  @include h6;
+}
+
+.body-m {
+  @include body-M;
+}
+
+.body-l {
+  @include body;
+}
+
+.body-s {
+  @include body-S;
+}
+
+.body-xs {
+  @include body-XS;
+}
+
+.caption {
+  @include caption;
+}
