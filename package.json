@@ -2,7 +2,7 @@
   "name": "react-starter",
   "version": "1.0.0",
   "description": "React (TS) starter project",
-  "homepage": ".",
+  "homepage": "http://Supergromila.github.io/trafalgar",
   "main": "index.js",
   "engines": {
     "node": ">=15.0.0",
